@@ -15,26 +15,23 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
       return;
     }
 
-    // Configure your birthday time here
-    const targetDate = (() => {
-      // OPTION 1: Automatic (tomorrow at midnight)
-      const now = new Date();
-      return new Date(
-        now.getFullYear(),
-        now.getMonth(),
-        now.getDate() + 1,
-        0,
-        0,
-        0
-      );
+    // ═══════════════════════════════════════════════════════════════
+    // 🎂 SET YOUR BIRTHDAY DATE & TIME HERE 🎂
+    // ═══════════════════════════════════════════════════════════════
 
-      // OPTION 2: Custom date (uncomment and modify)
-      // return new Date('2025-12-14T00:00:00');
+    const targetDate = new Date("2025-12-18T00:00:00");
 
-      // OPTION 3: Test in 10 seconds (uncomment for quick test)
-      // const now = new Date();
-      // return new Date(now.getTime() + 10000);
-    })();
+    // 📝 HOW TO USE:
+    // Replace the date above with your actual birthday
+    // Format: 'YYYY-MM-DD HH:MM:SS'
+    //
+    // Examples:
+    // - January 15, 2026 at midnight: '2026-01-15T00:00:00'
+    // - June 10, 2025 at 3:30 PM:    '2025-06-10T15:30:00'
+    // - December 25, 2025 at noon:   '2025-12-25T12:00:00'
+    //
+    // ⏰ Time format is 24-hour (00:00 = midnight, 12:00 = noon, 23:59 = 11:59 PM)
+    // ═══════════════════════════════════════════════════════════════
 
     const updateCountdown = () => {
       const now = new Date();
@@ -101,6 +98,8 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
           prevValue={prevTime.seconds}
         />
       </div>
+
+      {/* ⚠️ TEST BUTTON - DELETE LINES 95-101 BEFORE GOING LIVE! ⚠️ */}
       <button
         className="test-button"
         onClick={onBirthdayReached}
@@ -108,6 +107,7 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
       >
         🎉 Test Celebration
       </button>
+      {/* ⚠️ END TEST BUTTON - DELETE UP TO HERE ⚠️ */}
     </section>
   );
 }
