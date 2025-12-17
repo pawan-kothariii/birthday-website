@@ -1,10 +1,10 @@
-# í²– Birthday Countdown Website
+# ï¿½ï¿½ï¿½ Birthday Countdown Website
 
 Beautiful birthday website with countdown, photo gallery, and celebration effects!
 
 ---
 
-## íº€ Quick Start
+## ï¿½ï¿½ï¿½ Quick Start
 
 ```bash
 npm install
@@ -89,11 +89,11 @@ Replace `public/music.mp3` with your song
 
 ---
 
-## í·ª Test Your Changes
+## ï¿½ï¿½ï¿½ Test Your Changes
 
 ### Using the Test Button
 
-There's a special **"í¾‰ Test Celebration"** button on the countdown page that lets you skip the timer instantly!
+There's a special **"ï¿½ï¿½ï¿½ Test Celebration"** button on the countdown page that lets you skip the timer instantly!
 
 **What it does:**
 - âœ… Skips countdown timer
@@ -105,8 +105,8 @@ There's a special **"í¾‰ Test Celebration"** button on the countdown page that l
 1. Save your changes (date, names, message, photos)
 2. Make sure `npm run dev` is running
 3. Look at the countdown page
-4. Click the **"í¾‰ Test Celebration"** button below the timer
-5. Boom! í¾‰ You'll see the full celebration instantly
+4. Click the **"ï¿½ï¿½ï¿½ Test Celebration"** button below the timer
+5. Boom! ï¿½ï¿½ï¿½ You'll see the full celebration instantly
 
 **Why use it:**
 - Test your message for typos
@@ -132,7 +132,7 @@ There's a special **"í¾‰ Test Celebration"** button on the countdown page that l
   onClick={onBirthdayReached}
   title="Skip countdown and see celebration"
 >
-  í¾‰ Test Celebration
+  ï¿½ï¿½ï¿½ Test Celebration
 </button>
 {/* âš ï¸ END TEST BUTTON - DELETE UP TO HERE âš ï¸ */}
 ```
@@ -191,6 +191,7 @@ Right-click "birthdayReached" â†’ Delete
     â†“
 Refresh page (Ctrl + R)
 ```
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/f0e3e12d-0b69-4a15-a571-7577594e0b5d" />
 
 **When to do this:**
 - After clicking the test button and wanting to see the countdown again
@@ -199,7 +200,7 @@ Refresh page (Ctrl + R)
 
 ---
 
-## íº€ Deploy
+## ï¿½ï¿½ï¿½ Deploy
 
 **Before going live:** Delete test button from `Countdown.jsx` (lines 95-101)
 
@@ -213,7 +214,7 @@ Refresh page (Ctrl + R)
 
 ---
 
-## í¶˜ Issues?
+## ï¿½ï¿½ï¿½ Issues?
 
 - **Photos not showing?** Check names (`pic1.jpg`) and location (`public/images/`)
 - **Music not playing?** Named `music.mp3` in `public/` folder, MP3 format only
