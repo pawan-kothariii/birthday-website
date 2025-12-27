@@ -35,7 +35,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
     },
     {
       icon: "✨",
-      text: "Do you wanna see what I made??",
+      text: "Do you wanna see what we made??",
       type: "question",
       options: [
         { text: "Yes!", value: "yes" },
@@ -44,7 +44,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
     },
     {
       icon: "✨",
-      text: "Have a look at it, Madam Jiii",
+      text: "Have a look at it, Babe!",
       type: "announcement",
     },
   ];
@@ -389,7 +389,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="message"
                   onClick={() => handleButtonClick("message")}
                 >
-                  💌 Well, I Have a Message for You Madam Ji
+                  💌 Well, We Have a Message for You Babe!
                 </button>
               )}
             </div>
